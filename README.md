@@ -1,4 +1,4 @@
-##So, this project is all about creating a DevOps pipeline on AWS. It automates the whole deal of building, containerizing, and deploying a web app using cool DevOps tools.
+So, this project is all about creating a DevOps pipeline on AWS. It automates the whole deal of building, containerizing, and deploying a web app using cool DevOps tools.
 
 We’re looking at a pipeline that juggles Infrastructure as Code, Configuration Management, CI/CD automation, containerization, and Kubernetes orchestration. Basically, it’s like simulating a real cloud deployment, which is kinda neat.
 
@@ -6,7 +6,7 @@ The app we’re deploying here? It’s a resume web application, serving as a pr
 
 ---
 
-##Project Goals
+## Project Goals
 • Build a full-on DevOps pipeline
 • Automate setting up infrastructure with Terraform
 • Set up servers using Ansible
@@ -16,7 +16,7 @@ The app we’re deploying here? It’s a resume web application, serving as a pr
 • Show off a production-ready deployment workflow on AWS
 ---
 
-##Tech Stack
+## Tech Stack
 Cloud
 
 • AWS EC2
@@ -42,7 +42,7 @@ Application
 • Resume Web Application (HTML)
 ---
 
-##Project Architecture
+## Project Architecture
 Developer
    │
    │  Push Code
@@ -68,7 +68,7 @@ Kubernetes Cluster (AWS EC2)
 Resume Web Application (Running in Kubernetes)
 
 
-##Infrastructure Flow
+## Infrastructure Flow
 Terraform
 * Spins up AWS infrastructure * Sets up EC2 instances for Jenkins and Kubernetes
 
@@ -84,7 +84,7 @@ Kubernetes
 ---
 
 
-##Repository Structure
+## Repository Structure
 resume-devops-pipeline
 │
 ├── app
@@ -122,7 +122,7 @@ Deploy to Kubernetes
         ▼
 Application Available via Service Endpoint
 
-##Learning Outcomes
+## Learning Outcomes
 Doing this project gives some real hands-on experience with:
 
 • Automating infrastructure
@@ -133,7 +133,7 @@ Doing this project gives some real hands-on experience with:
 • Automating workflows from start to finish
 ---
 
-Future Improvements
+## Future Improvements
 • Toss in Prometheus and Grafana for monitoring
 • Throw in GitOps deployment with ArgoCD
 • Add auto-scaling with Kubernetes HPA
